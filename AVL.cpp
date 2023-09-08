@@ -45,7 +45,6 @@ void SET::Balance(Node * current){
     if(fact > 1){
       
       if(!isBalanced(current->left)){Balance(current->left); return;}
-      // cout << current->data << endl;
       if(factor(current->left) < 0){left_right(current); return;}
       else rotateRight(current);
     }

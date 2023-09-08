@@ -89,6 +89,7 @@ class SET{
   int factor(Node*);
 
   void uni(SET *, Node *);
+
   void unisec(SET *, Node *);
 
   SET * unidad(SET);
